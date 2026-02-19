@@ -27,3 +27,9 @@ Practicar la integración de APIs de inteligencia artificial en aplicaciones bac
 
 <img width="509" height="602" alt="image" src="https://github.com/user-attachments/assets/97b5cb32-1679-4ff9-8dc5-5e97f7e3a9a4" />
 
+aqui poner tu Api de Googlee
+<img width="1148" height="281" alt="image" src="https://github.com/user-attachments/assets/6039e71e-44ac-47a9-b7b5-db55c5c35b68" />
+
+
+
+
