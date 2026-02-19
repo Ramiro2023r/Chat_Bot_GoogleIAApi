@@ -25,7 +25,5 @@ GEMINI_API_KEY=tu_clave_aqui
 🎯 Objetivo del proyecto
 Practicar la integración de APIs de inteligencia artificial en aplicaciones backend, manejando contexto conversacional y configuraciones de modelos personalizados.
 
-
-
-                                                              <img width="509" height="602" alt="image" src="https://github.com/user-attachments/assets/97b5cb32-1679-4ff9-8dc5-5e97f7e3a9a4" />
+<img width="509" height="602" alt="image" src="https://github.com/user-attachments/assets/97b5cb32-1679-4ff9-8dc5-5e97f7e3a9a4" />
 
