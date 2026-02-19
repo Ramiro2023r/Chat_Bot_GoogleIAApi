@@ -30,6 +30,10 @@ Practicar la integración de APIs de inteligencia artificial en aplicaciones bac
 aqui poner tu Api de Googlee
 <img width="1148" height="281" alt="image" src="https://github.com/user-attachments/assets/6039e71e-44ac-47a9-b7b5-db55c5c35b68" />
 
+installaren la terminal 
+npm install
+npm install @google/generative-ai
+
 
 
 
