@@ -1,39 +1,121 @@
-# Chat_Bot_GoogleIAApi
-API de chat construida con Node.js y Express que integra la API de Gemini para funcionar como mentor de programación en español.
-Este proyecto es una API REST desarrollada con Node.js y Express que integra la API de Gemini para crear un asistente virtual enfocado en la enseñanza de programación.
+# Netflix Support Chatbot 🤖🎬
 
-El asistente actúa como un mentor que:
-📚 Explica conceptos paso a paso
-🧠 Desglosa problemas de forma sencilla
-💡 Utiliza ejemplos claros
-🎯 Responde completamente en español
-🚀 Motiva al usuario a entender la lógica detrás del código
-🛠️ Tecnologías utilizadas
-Node.js
-Express
-CORS
-Dotenv
+Este proyecto es un chatbot de soporte para Netflix llamado "R2D2", desarrollado con Node.js, Express y la API de Google Gemini. El chatbot está diseñado para responder preguntas sobre contenido de Netflix, resolver dudas de cuenta y recomendar películas y series.
+<img width="1909" height="859" alt="image" src="https://github.com/user-attachments/assets/62213b04-a8f3-4034-8507-54aae407d754" />
 
-API de Gemini (Google Generative AI)
-📡 Endpoint principal
-POST /api/chat
 
-🔐 Configuración
-El proyecto utiliza variables de entorno para proteger la API Key:
-GEMINI_API_KEY=tu_clave_aqui
+## 🚀 Características
 
-🎯 Objetivo del proyecto
-Practicar la integración de APIs de inteligencia artificial en aplicaciones backend, manejando contexto conversacional y configuraciones de modelos personalizados.
+- **Asistente virtual de Netflix**: Chatbot que simula ser el asistente oficial de Netflix
+- **Recomendaciones personalizadas**: Sugiere contenido basado en género, estado de ánimo y preferencias
+- **Soporte técnico básico**: Ayuda con problemas comunes de cuenta
+- **Interfaz moderna**: Diseño estilo Netflix con modo oscuro y animaciones
+- **Historial de conversación**: Mantiene el contexto de la conversación
 
-<img width="509" height="602" alt="image" src="https://github.com/user-attachments/assets/97b5cb32-1679-4ff9-8dc5-5e97f7e3a9a4" />
+## 🛠️ Tecnologías
 
-aqui poner tu Api de Googlee
-<img width="1148" height="281" alt="image" src="https://github.com/user-attachments/assets/6039e71e-44ac-47a9-b7b5-db55c5c35b68" />
+- **Backend**: Node.js + Express
+- **IA**: Google Gemini API (@google/generative-ai)
+- **Frontend**: HTML5, CSS3, JavaScript vanilla
+- **Otros**: CORS, dotenv
 
-installaren la terminal 
+## 📋 Requisitos
+
+- Node.js (v14 o superior)
+- Cuenta de Google Cloud con API de Gemini habilitada
+- Clave API de Google Gemini
+
+## ⚙️ Instalación
+
+1. Clona el repositorio:
+```
+bash
+git clone <url-del-repositorio>
+cd proyecto8
+```
+
+2. Instala las dependencias:
+```
+bash
 npm install
-npm install @google/generative-ai
+```
+
+3. Configura las variables de entorno:
+   - Crea un archivo `.env` en la raíz del proyecto
+   - Agrega tu clave API de Google Gemini:
+```
+env
+apiKey=TU_CLAVE_API_AQUI
+modelName=gemini-1.5-flash
+```
+
+4. Inicia el servidor:
+```
+bash
+node ejemplo8.js
+```
+
+5. Abre el chat en tu navegador:
+   - Navega a `http://localhost:3000/ejemplo8.html`
+
+## 📁 Estructura del Proyecto
+
+```
+proyecto8/
+├── ejemplo8.js          # Servidor Express con la lógica del chatbot
+├── ejemplo8.html        # Interfaz del chat (Frontend)
+├── config.js            # Configuración (archivo de entorno)
+├── package.json         # Dependencias del proyecto
+└── README.md           # Este archivo
+```
+
+## 🎮 Cómo Usar
+
+1. Abre `ejemplo8.html` en tu navegador
+2. Escribe tu mensaje en el campo de texto
+3. Presiona Enter o haz clic en el botón de enviar
+4. ¡El chatbot te responderá!
+
+   <img width="1890" height="859" alt="image" src="https://github.com/user-attachments/assets/fd8734c8-050a-4a57-a5b4-52047ccd3213" />
 
 
+### Ejemplos de preguntas:
+- "¿Qué me recomiendas ver?"
+- "¿Cómo puedo cancelar mi suscripción?"
+- "¿Qué series de terror tienen?"
+- "Estoy aburrido, ¿qué veo?"
 
+## 📝 Configuración del Bot
 
+El chatbot está configurado con instrucciones específicas en `ejemplo8.js`:
+
+- **Rol**: Asistente de Netflix llamado "R2D2"
+- **Tono**: Entusiasta, cercano y cinéfilo
+- **Regla especial**: No menciona plataformas competidoras (Disney+, HBO, etc.)
+- **Estrategia**: Redirige preguntas de competencia hacia alternativas en Netflix
+
+## 🔧 Personalización
+
+### Cambiar el modelo de Gemini
+Edita `config.js`:
+```
+javascript
+modelName: "gemini-1.5-pro" // o el modelo que prefieras
+```
+
+### Modificar las instrucciones del bot
+Edita el `systemInstruction` en `ejemplo8.js` para cambiar la personalidad o comportamiento del chatbot.
+
+## ⚠️ Notas
+
+- El servidor debe estar ejecutándose en el puerto 3000
+- La API de Google Gemini tiene límites de uso gratuitos
+- Asegúrate de tener una clave API válida
+
+## 📄 Licencia
+
+ISC
+
+---
+
+¡Disfruta de tu asistente de Netflix! 🍿📺
